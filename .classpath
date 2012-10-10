@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_16">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/json-me.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/kxml2-min-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/simplelatlng-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/twitter_api_me-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/catalina-6.0.26.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-beanutils-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/ezmorph-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/httpclient-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/TwitterAPIME-JavaME-OAuthSample/lib/twitter_api_me-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-async-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-core-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-examples-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-media-support-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-stream-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/google-maps-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-validator-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/xercesImpl-2.8.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
