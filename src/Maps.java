@@ -4,11 +4,16 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
+import twitter4j.User;
+import twitter4j.auth.RequestToken;
+import twitter4j.conf.ConfigurationBuilder;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
@@ -19,6 +24,7 @@ import net.sf.json.JSONObject;
 public class Maps extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	String latlon;
+	//int id;
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -27,19 +33,46 @@ public class Maps extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
+    String consumerSecret="uPIMNJwCMtK09B3BgiBmhuqC7NMzKMVTufzZ4Vc";
+	String consumerKey="J2J40q3rF3JPu2lvpSGyw";
+	String accessToken="360443526-qUF4F7LY2sTFv4ov2us5HMfseUb9y58EDVkRgoT2";
+	String accessSecret="TWiPwsI9XzY2Y0mkwV7XLaNyJrS8D5vovfL2hMq35o";
+	int id;
+	String sname;
 	/**
+	 * @throws TwitterException 
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.setContentType("text/html");
+	 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  {
+		 response.setContentType("text/html");
+		 
+		 Twitter twitter = (Twitter) request.getSession().getAttribute("twitter");
+	        RequestToken requestToken = (RequestToken) request.getSession().getAttribute("requestToken");
+	        String otoken=request.getParameter("oauth_token");
+	        String verifier = request.getParameter("oauth_verifier");
+	        ConfigurationBuilder cb = new ConfigurationBuilder();
+			 cb.setDebugEnabled(true)
+			   .setOAuthConsumerKey("J2J40q3rF3JPu2lvpSGyw")
+			   .setOAuthConsumerSecret("uPIMNJwCMtK09B3BgiBmhuqC7NMzKMVTufzZ4Vc")
+			   .setOAuthAccessToken("360443526-"+otoken)
+			   .setOAuthAccessTokenSecret("TWiPwsI9XzY2Y0mkwV7XLaNyJrS8D5vovfL2hMq35o");
+			 TwitterFactory tf = new TwitterFactory(cb.build());
+			  twitter = tf.getInstance();
+			  try {
+	            twitter.getOAuthAccessToken(requestToken, verifier);
+	            request.getSession().removeAttribute("requestToken");
+	        	User user = twitter.verifyCredentials();
+	            System.out.println("Successfully verified credentials of " + user.getScreenName());
+	            sname=user.getScreenName();
+	        } catch (TwitterException e) {
+	            throw new ServletException(e);
+	        }		 
 		PrintWriter out=response.getWriter();
 		out.println("chalra miya");
 		URL url;
 		String response1;
 		try {
-			url = new URL("https://api.twitter.com/1/users/show.json?screen_name=expert8385&include_entities=true");
+			url = new URL("https://api.twitter.com/1/users/show.json?screen_name="+sname+"&include_entities=true");
 			HttpURLConnection connection =(HttpURLConnection) url.openConnection();
 			System.out.println(connection);
 			if(connection==null){
@@ -75,7 +108,6 @@ public class Maps extends HttpServlet {
 			latlon = sbb.toString();
 			connection1.disconnect();
 			JSONObject ll=JSONObject.fromObject(latlon);
-			//System.out.println(ll);
 			JSONArray array = ll.getJSONArray("results");
 			JSONObject obje = array.getJSONObject(0);
 			JSONObject l2= obje.getJSONObject("geometry");
@@ -90,6 +122,5 @@ public class Maps extends HttpServlet {
 			System.out.println();
 		}
 
-	}
-
+    		}
 }
