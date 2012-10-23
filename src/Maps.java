@@ -67,8 +67,6 @@ public class Maps extends HttpServlet {
 	        } catch (TwitterException e) {
 	            throw new ServletException(e);
 	        }		 
-		PrintWriter out=response.getWriter();
-		out.println("chalra miya");
 		URL url;
 		String response1;
 		try {
