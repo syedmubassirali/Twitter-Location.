@@ -42,9 +42,7 @@ public class Connect extends HttpServlet {
 		request.getSession().setAttribute("requestToken", requestToken);
 		String auth = requestToken.getAuthenticationURL();
 			System.out.println(auth);
-			response.sendRedirect(auth);
-			String token=requestToken.getToken();
-		String tokenSecret=requestToken.getTokenSecret();		        
+			response.sendRedirect(auth);		        
 		    }
 			catch (Exception ex) {
 				ex.printStackTrace();

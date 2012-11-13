@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_16">
+	<classpathentry kind="src" output="target/classes" path="src">
 		<attributes>
-			<attribute name="owner.project.facets" value="jst.java"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/json-lib-2.2.2-jdk15.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/json-me.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/kxml2-min-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/simplelatlng-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/Twitter project/twitter_api_me-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-beanutils-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-collections-3.2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-lang-2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-logging-1.1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/ezmorph-1.0.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/httpclient-4.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/json-lib-2.4-jdk15.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/servlet-api.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-async-2.2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-core-2.2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-examples-2.2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-media-support-2.2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter4j-stream-2.2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/google-maps-apis.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/commons-validator-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/xercesImpl-2.8.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/project data/TwitterAPIME-JavaME-OAuthSample/lib/twitter_api_me-1.8.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/signpost-commonshttp4-1.2.1.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/twitter4j.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/scribe-1.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Downloads/signpost-core-1.2.1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter-service-0.2.0/twitter-service-0.2.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/twitter-service-0.2.0/twitter-service-0.2.0-sources.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/SYED MUBASSIR ALI/Desktop/twitter 4j/hornetq-twitter-integration.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-beanutils-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-validator-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/ezmorph-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/twitter_api_me-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/twitter4j-core-2.2.6.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/servlet-2.5.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
