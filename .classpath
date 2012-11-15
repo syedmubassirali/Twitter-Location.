@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-beanutils-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-collections-3.2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-lang-2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-logging-1.1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/commons-validator-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/ezmorph-1.0.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/json-lib-2.4-jdk15.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/twitter_api_me-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/twitter4j-core-2.2.6.jar"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="E:/MUBASSIR/PROJECT/All jar files/servlet-2.5.jar"/>
-	<classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="src" path="src" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar" sourcepath="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-validator/commons-validator/1.0.1/commons-validator-1.0.1.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/commons-validator/commons-validator/1.0.1/commons-validator-1.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/1.3/commons-digester-1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" sourcepath="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/oro/oro/2.0.6/oro-2.0.6.jar" sourcepath="M2_REPO/oro/oro/2.0.6/oro-2.0.6-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.7/junit-3.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar" sourcepath="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar"/>
 </classpath>
