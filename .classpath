@@ -39,4 +39,9 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/twitter4j/twitter4j-core/2.2.6/twitter4j-core-2.2.6.jar" sourcepath="M2_REPO/org/twitter4j/twitter4j-core/2.2.6/twitter4j-core-2.2.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/SYED%20MUBASSIR%20ALI/.m2/repository/org/twitter4j/twitter4j-core/2.2.6/twitter4j-core-2.2.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
 </classpath>
